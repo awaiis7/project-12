@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>task22</title>
+    <style>
+        .parentdiv {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .child1 {
+            border: 2px solid pink;
+            border-radius: 50%;
+            width: 385px;
+            height: 385px;
+            background-color: pink;
+            order: 1;
+
+
+
+        }
+
+        .child2 img {
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            order: 0;
+            position: absolute;
+            left: 30%;
+            margin-top: 5%;
+        }
+
+        .child3 img {
+            width: 230px;
+            height: 230px;
+            order: 2;
+            position: absolute;
+            left: 50%;
+            margin-top: 2%;
+        }
+
+        .heading {
+            text-align: center;
+        }
+
+        .parentdiv1 {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            position: relative;
+            background-color: beige;
+            margin-top: 2%;
+            height: 500px;
+        }
+
+        .baby1 {
+            border: 2px solid orange;
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            background-color: orange;
+            margin-top: 2%;
+        }
+
+        .baby2 img {
+            width: 320px;
+            height: 280px;
+            position: absolute;
+            left: 30%;
+            margin-top: 8%;
+        }
+
+        .baby3 img {
+            width: 220px;
+            height: 200px;
+            position: absolute;
+            left: 43%;
+            margin-top: 22%;
+        }
+
+        .baby4 {
+            border: 1px solid grey;
+            background-color: white;
+            /* text-align: center; */
+            padding: 0 5px 0 5px;
+            position: absolute;
+            left: 57%;
+            margin-top: 10%;
+            text-align: left;
+        }
+        .baby4 li{
+            list-style-type: none;
+            text-align: left;
+        }
+        .baby4 i{
+            text-align: left;
+        }
+
+        footer {
+            background-color: black;
+            text-align: center;
+            color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            width: 70%;
+            margin: 0 auto  ;
+            color: gray;
+        }
+        .pages{
+            display: flex;
+            gap: 20px;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h1>logo</h1>
+        </div>
+        <div class="pages">
+            <div class="page">
+                <p>home</p>
+            </div>
+            <div class="page">
+                <p>page 1</p>
+            </div>
+            <div class="page">
+                <p>page 2</p>
+            </div>
+            <div class="page">
+                <p>page 3</p>
+            </div>
+        </div>
+    </nav>
+    <div class="parentdiv">
+        <div class="child1">
+
+        </div>
+        <div class="child2">
+            <img src="image2.jpg" alt="">
+
+        </div>
+        <div class="child3">
+            <img src="image1.png" alt="">
+
+        </div>
+
+    </div>
+    <div class="heading">
+        <h1 style="color: lightskyblue;font-size: 60px;">
+            Your Perfect Home
+        </h1>
+        <h3 style="color: grey;">
+            DESIGN PRACTICE ROOTED IN ARCHITECTURE
+
+        </h3>
+        <P>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit <br>
+            Eos expedita earum blanditiis, officia corporis placeat <br>
+            sed quae veniam perferendis saepe dolor magnam aliquid <br>
+            et architecto
+        </P>
+        <p>
+            images from FREEPIC
+
+        </p>
+        <button style="border: none;padding: 10px;color:white;background-color:skyblue ;">LEARN MORE</button>
+    </div>
+    <div class="parentdiv1">
+        <div class="baby1">
+
+        </div>
+        <div class="baby2">
+            <img src="image5.png" alt="">
+
+        </div>
+        <div class="baby3">
+            <img src="image3.png" alt="">
+
+        </div>
+        <div class="baby4">
+
+            <h2>
+                Brand Idendity <br>
+                Disgn Agency
+            </h2>
+            <ul>
+                <li><i class="fa-solid fa-check" style="color: #FF0000;"></i>Lorem ipsum dolor sit amet
+                    consectetur.</li>
+                <li><i class="fa-solid fa-check" style="color: #FF0000;"></i>Lorem ipsum dolor sit amet
+                    consectetur.</li>
+                <li><i class="fa-solid fa-check" style="color: #FF0000;"></i>Lorem ipsum dolor sit amet
+                    consectetur.</li>
+            </ul>
+            <h5>images form <a href="">Freepik</a></h5>
+            <button style="background-color: black;padding: 15px;border: none;margin-bottom: 5%;color: white;">Contact
+                Us</button>
+
+
+        </div>
+
+    </div>
+    <footer>
+        <p>
+            sample text.click to select the text box.click again or double <br>
+            click to start ending the text.
+        </p>
+        <p>
+            <a href="" style="color: orange;">website templates</a>
+            created with
+            <a href="" style="color: orange;">website builder software</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
